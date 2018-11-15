@@ -1,0 +1,11 @@
+[package]
+name = "mtproto"
+version = "0.1.0"
+authors = ["Cauê Baasch de Souza <cauebs@pm.me>",
+           "Tarcísio Eduardo Moreira Crocomo"]
+edition = "2018"
+
+[dependencies]
+serde = "1.0.80"
+serde_derive = "1.0.80"
+bincode = { version = "1.0.1", features = ["i128"] }
